@@ -30,7 +30,7 @@ nav ul li a{
     color: white;
 }
 .row{
-
+    clear: both;
 }
 .col{
     background: rgb(230, 224, 224);
