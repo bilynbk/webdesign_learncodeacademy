@@ -1,0 +1,26 @@
+body{
+    background: rgb(211, 207, 207);
+    font-family: serif;
+}
+h1,li{
+    color: #555;
+}
+h2{
+    color: green;
+}
+a{
+    color: red;
+}
+p{
+    color: rgb(140, 214, 125);
+    background: rgb(63, 59, 59);
+    padding: 10px,0px,0px,0px;
+}
+.secondary{
+    background: none;
+    color: rgb(57, 33, 160);
+}
+#special{
+    background: rebeccapurple;
+    color: rgb(12, 206, 240);
+}

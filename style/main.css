@@ -1,26 +1,44 @@
 body{
-    background: rgb(211, 207, 207);
-    font-family: serif;
+    margin: 0;
 }
-h1,li{
-    color: #555;
+header{
+    background: rgba(71, 121, 161, 0.61);
+    color: white;
+    padding: 0px 0px 0 15px;
+
 }
-h2{
-    color: green;
+
+header h1{
+    display: inline;
+    margin: 0;
+    color: rgb(209, 28, 179);
 }
-a{
-    color: red;
+nav ul{
+    margin: 0;
+    display: inline;
+    padding: 0 2% 0 2%;
 }
-p{
-    color: rgb(140, 214, 125);
-    background: rgb(63, 59, 59);
-    padding: 10px,0px,0px,0px;
+nav ul li{
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+    background: black;
+    color: rgb(241, 9, 9);
+    padding: 5px 15px 5px 15px;
 }
-.secondary{
-    background: none;
-    color: rgb(57, 33, 160);
+nav ul li a{
+    color: white;
 }
-#special{
-    background: rebeccapurple;
-    color: rgb(12, 206, 240);
+.row{
+
+}
+.col{
+    background: rgb(230, 224, 224);
+    border-radius: 15%;
+    float: left;
+    margin: 1%;
+    width: 30%;
+}
+footer{
+    clear: both;
 }
